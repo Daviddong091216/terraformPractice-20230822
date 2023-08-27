@@ -4,7 +4,8 @@ variable "input" {
 }
 
 locals {
-  local_value = "${var.input}, World!"
+  local_value = "${var.input}, World from David!"
+  local_value2 = "${var.input2}, World from David!"
 }
 
 output "greeting" {
